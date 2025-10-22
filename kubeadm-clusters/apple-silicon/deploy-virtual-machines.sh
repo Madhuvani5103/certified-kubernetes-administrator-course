@@ -12,7 +12,7 @@ set -euo pipefail
 # "NAT"    - Places VMs in a private virtual network. Cluster cannot be accessed
 #            without setting up a port forwarding rule for every NodePort exposed.
 #            Use this mode if for some reason BRIDGE doesn't work for you.
-BUILD_MODE="BRIDGE"
+BUILD_MODE="NAT"
 
 
 RED="\033[1;31m"
